@@ -1,0 +1,202 @@
+*{
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+}
+
+body{margin: 0;}
+p{
+	font-size: 1vw;
+}
+img.nav{
+	height: 100%;
+	width: auto;
+	margin-left: 3vw;
+}
+div.nav{
+	display: flex;
+	flex-direction: row;
+}
+ul.nav{
+	list-style-type: none;
+	margin: auto;
+}
+li.nav{
+	display: inline-block;
+	color: #3b5773;
+	padding-right: 2vw;
+	font-size: 2.4vh;
+}
+.slider-menu{
+	height: auto;
+}
+img.slider{
+	height: auto;
+	width: 100%;
+}
+div.apply{
+	display: inline-block;
+	height: 40vh;
+	width: 100%;
+	background-color: darkblue;
+}
+.apply,.para,.header1,.header2{
+	color: white;
+	text-align: center;
+
+}
+p.header1{
+	font-size: 5vh; 
+}
+h1.header2{
+	font-size: 4vh; 
+	text-transform: uppercase;
+}
+p.para{
+	border: 1px solid white;
+	margin: auto;
+	width: 10%;
+	padding: 3vh;
+	font-size: 2.5vh; 
+}
+div.container{
+	background-color: white;
+	height: 120vh;
+	margin: auto;
+	width: 90%;
+	margin-bottom: 10vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.column{
+
+	width: auto;
+	height: 80vh;
+	background-color: white;
+}
+
+
+.coltext{
+	text-transform: uppercase;
+	font-size: 2.6vh;
+	border-bottom: 1px solid grey;
+	padding-bottom: 2vh;
+}
+div.imgcol{
+	
+	border-bottom: 1px solid grey;
+	padding-top: 2vh;
+}
+.colimg{
+	height: auto;
+	width: 25vw;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.colthumb{
+	display: flex;
+	flex-direction: row;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+.colthumbtext{
+	margin-left: 1vw;
+}
+#independence{
+	text-transform: uppercase;
+	color: black;
+	text-align: left;
+	font-size: 2vh;
+}
+#independence2{
+	color: black;
+	text-align: left;
+	font-size: 2vh;
+	font-weight: bold;
+}
+#other{
+	color: grey;
+	text-align: left;
+	font-size: 2vh;
+}
+#activities{
+	color: grey;
+	text-align: left;
+	font-size: 2vh;
+}
+#activities2{
+	color: black;
+	text-align: left;
+	font-size: 2.4vh;
+	font-weight: bold;
+}
+.sub{
+	display: flex;
+	float: left;
+	width: 33%;
+	height: 25vh;
+	margin-bottom: 10vh;
+}
+.subb{
+	margin-left: 5vw;
+}
+.subtext{
+	color: grey;
+	margin-bottom: 0;
+}
+.subpara{
+	border: 1px solid grey;
+	width: 10vw;
+	padding: 4vh;
+	font-size: 2vh; 
+	color: grey;
+}
+#one{
+	background-image: url("../images/undergraduate.png");
+}
+#three{
+	background-image: url("../images/academic.png");
+}
+#two{
+	background-image: url("../images/postgraduate.png");
+}
+footer {
+  height: 60vh;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #252a47;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+}
+.footercolumn{
+	width: 15%;
+	height: 40vh;
+	color: white;
+	
+	margin-top: 3%;
+}
+.ftimg{
+	width: 15vw;
+	height: auto;
+}
+div.info{
+	display: flex;
+	width: 100%;
+	height: 10vh;
+	background-color: black;
+	color: white;
+	text-indent: 3vh;
+	align-content: center;
+}
+ul.info{
+	text-decoration: circle;
+	
+}
+li.info{
+	display: inline-block;
+	
+}
